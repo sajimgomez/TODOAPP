@@ -1,59 +1,73 @@
-.adder{
+.ContainerDiv{
 
-    margin-left: 15%;
+    margin: auto;
 
-    margin-right: 5%;
+}
+
+.InputAndButtonDiv{
 
     margin-top: 20px;
 
-    position: relative;
+    margin-bottom: 100px;
+
+    text-align: center;
 
 }
 
-.input{
+.ListDiv{
 
-    float: left;
+    margin-top: 20px;
 
-    width: 80%;
+    margin-left: 250px;
 
-}
+    margin-right: 250px;
 
-.button{
+    border-color: cadetblue;
 
-    float: left;
-
-}
-
-.buttonInner{
-
-    background-color: blue;
-
-    height: 36px;
-
-    width: 45px;
-
-    color: aliceblue;
+    border-style: solid;
 
 }
 
-.inputInner{
+.ListItemDiv{
+
+    width: 95%;
+
+    margin: 20px;
+
+}
+
+.Input{
+
+    width: 60%;
+
+    height: 24px;
+
+}
+
+.MainButton{
+
+    width: 60px;
 
     height: 30px;
 
-    width: 100%;
+    background-color: rgb(0, 132, 255);
+
+    color: white;
+
+    border-style: none;
 
 }
 
-.list{
+.ButtonListItem{
 
-    position: relative;
+    float: right;
 
-    background-color: aqua;
+    background-color: red;
 
-}
+    color: white;
 
-.listItem{
+    height: 30px;
 
-    position: relative;
+    border-style: none;
 
 }

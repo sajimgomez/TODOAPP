@@ -1,31 +1,61 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
+
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <meta http-equiv = 'X-UA-Compatible' content = 'IE=edge'>
+
     <title>TODO APP</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='Styles.css'>
+
+    <meta name = 'viewport' content = 'width = device-width, initial-scale = 1'>
+
+    <link rel = 'stylesheet' type = 'text/css' media = 'screen' href = 'Styles.css'>
+
 </head>
+
 <body>
 
-    <div class="adder">
+    <div class = "ContainerDiv">
 
-        <form>
+        <div class = "InputAndButtonDiv">
 
-            <div class="input"><input id="TODO" class="inputInner"></div><div class="button"><button class="buttonInner">ADD</button></div>
+            <input type = "text" class = "Input">
+
+            <button class = "MainButton">Add</button>
+
+        </div>
+
+        <div class = "ListDiv">
+
+            <div class = "ListItemDiv">
+
+                <input type = "checkbox">
+
+                <label>Milk</label>
+
+                <button class = "ButtonListItem">Delete</button>
+
+            </div>
+
+            <div class = "ListItemDiv">
+
+                <input type = "checkbox">
+
+                <label>Milk</label>
+
+                <button class = "ButtonListItem">Delete</button>
+
+            </div>
             
-        </form>
-
-    </div>
-
-    <div class="list">
-
-        <div class="listItem"><input type="checkbox"><label>Milk</label><button>Delete</button></div>
+        </div>
 
     </div>
 
     <script> src = 'APPFunc.js' </script>
 
 </body>
+
 </html>
