@@ -1,0 +1,59 @@
+.adder{
+
+    margin-left: 15%;
+
+    margin-right: 5%;
+
+    margin-top: 20px;
+
+    position: relative;
+
+}
+
+.input{
+
+    float: left;
+
+    width: 80%;
+
+}
+
+.button{
+
+    float: left;
+
+}
+
+.buttonInner{
+
+    background-color: blue;
+
+    height: 36px;
+
+    width: 45px;
+
+    color: aliceblue;
+
+}
+
+.inputInner{
+
+    height: 30px;
+
+    width: 100%;
+
+}
+
+.list{
+
+    position: relative;
+
+    background-color: aqua;
+
+}
+
+.listItem{
+
+    position: relative;
+
+}
