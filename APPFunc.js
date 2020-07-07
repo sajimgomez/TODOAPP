@@ -34,7 +34,7 @@ const add_task = () => {
 
     buttonElement.setAttribute('class', 'ButtonListItem');
 
-    buttonElement.setAttribute('onclick', 'delete_function(divElement)');
+    buttonElement.setAttribute('onclick', 'delete_function(this.parentNode)');
 
     buttonElement.textContent = 'Delete';
 
